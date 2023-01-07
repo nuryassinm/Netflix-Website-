@@ -22,7 +22,7 @@ body{
     background-position: center;
     height: 100vh;
     max-width: 100%;
-    width: 100%;  
+   
     
 }
 .header-button button{
@@ -57,32 +57,34 @@ header{
 }
 
 .main-container{
+    margin-top: 120px;
+    display: flex;
     align-items: center;
-/* margin-left: auto;
-margin-right: auto;
-
-    width:50%; */
-    padding: 0% 20%;
+    justify-content: center;
 }
 
 .main-para .para1{
-    margin-top: 138px;
+    /* margin-top: 138px; */
+    font-weight: 700;
 font-size: 60px;
 color: white;
 text-align: center;
 }
 
 .main-para .para2{
+    padding-top: 1%;
     font-size: 30px;
     color: white;
     text-align: center;
     }
     .para3{
-        margin-top: -30px;
+        padding-top: 1%;
+        display: flex;
+        justify-content: center;
     }
     .para3 p{
         
-        width: 100%;
+        /* width: 100%; */
         font-size: 18.5px;
         color: white;
         text-align: center;
@@ -95,7 +97,7 @@ text-align: center;
 }
 
 .form1 input{
-    margin-right: -4px;
+    margin-right: -5px;
     width: 500px;
     height: 55px;
     background-color: white;
@@ -161,11 +163,6 @@ padding-top: 20px;
     background-image: url("netlix_img/tv.png");
     background-size: cover;
 }
-/* 
-.img-video-section2{
-  padding-bottom: -200px;
-} */
-
 
 /*section4 */
 .section4{
@@ -362,6 +359,7 @@ footer ul{
     .main-container .para1 ,.para2{
         padding: 0% 0%;
         /* margin-top: -10px; */
+        margin-left: auto;
         font-size: 25px;
        }
        form {
@@ -372,6 +370,17 @@ justify-content: center;
        .main-para {
         font-size: 20px;
        }
+        .para3 p{
+        margin-left: auto;
+font-size: 20px;
+       }
+       .form1 input{
+        /* background-color:rgb(26, 25, 25); */
+        border-radius: 3px;
+        display: flex;
+
+        margin-left: -50px;
+       }
    .section2 h2,p{
     font-size: 25px;
     text-align: left;
@@ -381,7 +390,11 @@ justify-content: center;
    height: 70vh;
    flex-wrap:wrap;
  }
-
+ .netflix-video{
+ padding: 40px 30px;
+ margin-left: 50px;
+ }
+ 
  .section4 .head-para1,.head-para2{
     font-size: 25px;
     text-align: left;
@@ -409,6 +422,11 @@ justify-content: center;
        }
        .section6 .head-para1,.head-para2{
     font-size: 20px;
+    margin-left: 20px;
+   }
+   .second-form-container form input{
+    margin-left: 1px;
+    
    }
    .section7 .collapsible{
     font-size: 20px;
